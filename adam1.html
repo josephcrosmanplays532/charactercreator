@@ -131,7 +131,7 @@ function fbShare(ccId)
     if (ccId == undefined) {
         return;
     }
-    var url = encodeURIComponent('https://goanimatelegacybeta.herokuapp.com/character_creator/new_char?themeId=family&original_asset_id==' + ccId);
+    var url = encodeURIComponent('https://goanimatelegacybeta.herokuapp.com/character_creator/new_char?themeId=family&original_asset_id=' + ccId);
     var title = encodeURIComponent('I just created a new character on Vyond');
     var shareUrl = 'https://www.facebook.com/sharer.php?u=' + url + '&t=' + title;
 
